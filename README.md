@@ -86,7 +86,6 @@ Table of Contents
    * https://code.google.com/p/ratproxy/ Ratproxy
    * http://www.websecurify.com Websecurify
    * http://sourceforge.net/projects/grendel/ Grendel-scan
-   * https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project DirBuster
    * https://tools.kali.org/web-applications/gobuster Directory/file and DNS busting tool written in Go
    * http://www.edge-security.com/wfuzz.php Wfuzz
    * http://wapiti.sourceforge.net wapiti
@@ -122,6 +121,8 @@ Table of Contents
    * https://github.com/urbanadventurer/WhatWeb WhatWeb - Next generation web scanner
    * https://www.shodan.io/ Shodan - The search engine for find vulnerable servers
    * https://github.com/WangYihang/Webshell-Sniper A webshell manager via terminal
+   * https://github.com/nil0x42/phpsploit PhpSploit - Full-featured C2 framework which silently persists on webserver via evil PHP oneliner
+   * https://github.com/HightechSec/git-scanner git-scanner - A tool for bug hunting or pentesting for targeting websites that have open `.git` repositories available in public
    
 ## Cheat Sheets
 
@@ -136,7 +137,7 @@ Table of Contents
    * `docker pull kalilinux/kali-linux-docker` [official Kali Linux](https://hub.docker.com/r/kalilinux/kali-linux-docker/)
    * `docker pull owasp/zap2docker-stable` - [official OWASP ZAP](https://github.com/zaproxy/zaproxy)
    * `docker pull wpscanteam/wpscan` - [official WPScan](https://hub.docker.com/r/wpscanteam/wpscan/)
-   * `docker pull pandrew/metasploit` - [docker-metasploit](https://hub.docker.com/r/pandrew/metasploit/)
+   * `docker pull metasploitframework/metasploit-framework` - [docker-metasploit](https://hub.docker.com/r/metasploitframework/metasploit-framework/)
    * `docker pull citizenstig/dvwa` - [Damn Vulnerable Web Application (DVWA)](https://hub.docker.com/r/citizenstig/dvwa/)
    * `docker pull wpscanteam/vulnerablewordpress` - [Vulnerable WordPress Installation](https://hub.docker.com/r/wpscanteam/vulnerablewordpress/)
    * `docker pull hmlio/vaas-cve-2014-6271` - [Vulnerability as a service: Shellshock](https://hub.docker.com/r/hmlio/vaas-cve-2014-6271/)
@@ -145,8 +146,9 @@ Table of Contents
    * `docker pull usertaken/archlinux-pentest-lxde` - [Arch Linux Penetration Tester](https://hub.docker.com/r/usertaken/archlinux-pentest-lxde/)
    * `docker pull diogomonica/docker-bench-security` - [Docker Bench for Security](https://hub.docker.com/r/diogomonica/docker-bench-security/)
    * `docker pull ismisepaul/securityshepherd` - [OWASP Security Shepherd](https://hub.docker.com/r/ismisepaul/securityshepherd/)
-   * `docker pull danmx/docker-owasp-webgoat` - [OWASP WebGoat Project docker image](https://hub.docker.com/r/danmx/docker-owasp-webgoat/)
+   * `docker pull danmx/docker-owasp-webgoat` - [OWASP WebGoat Project docker image](https://hub.docker.com/r/webgoat/goatandwolf)
    * `docker pull citizenstig/nowasp` - [OWASP Mutillidae II Web Pen-Test Practice Application](https://hub.docker.com/r/citizenstig/nowasp/)
+   * `docker pull aaaguirre/pentest` - [Docker for pentest](https://github.com/aaaguirrep/pentest)
 
 ## Vulnerabilities
 
@@ -181,7 +183,7 @@ Table of Contents
    * http://demo.testfire.net/ - Altoro Mutual
 
 ## Labs
-
+   * https://portswigger.net/web-security - Web Security Academy: Free Online Training from PortSwigger
    * http://www.cis.syr.edu/~wedu/seed/all_labs.html - Developing Instructional Laboratories for Computer SEcurity EDucation
    * https://www.vulnhub.com/ - Virtual Machines for Localhost Penetration Testing.
    * https://pentesterlab.com/ - PentesterLab is an easy and great way to learn penetration testing.
@@ -196,6 +198,7 @@ Table of Contents
    * https://github.com/rapid7/hackazon - Hackazon is a free, vulnerable test site that is an online storefront built with the same technologies used in today’s rich client and mobile applications.
    * https://github.com/RhinoSecurityLabs/cloudgoat - Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool
    * https://www.hackthebox.eu/ - Hack The Box is an online platform allowing you to test and advance your skills in cyber security.
+   * https://github.com/tegal1337/0l4bs - 0l4bs is a Cross-site scripting labs for web application security enthusiasts.
 
 
 ## SSL
